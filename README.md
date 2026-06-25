@@ -97,7 +97,7 @@ satisfies all six over one shared structure.
 ## 🏗️ How it works
 
 <div align="center">
-<img src="figures/architecture.png" alt="Lethe architecture (Figure 4 from the paper)" width="81%">
+<img src="figures/architecture.png" alt="Lethe architecture (Figure 4 from the paper)" width="85%">
 
 <sub><b>Figure 4 from the paper.</b> Lethe over one shared index: the query path (top) runs revocation-aware traversal; the erasure path (bottom) flips the access predicate, builds the bypass overlay, shreds keys via the TEE key store, and appends to the hash-chained erasure log.</sub>
 </div>
