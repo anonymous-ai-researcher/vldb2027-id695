@@ -74,7 +74,7 @@ satisfies all six over one shared structure.
 ## 🏗️ How it works
 
 <div align="left">
-<img src="figures/architecture.png" alt="Lethe architecture (Figure 4 from the paper)" width="59%">
+<img src="figures/architecture.png" alt="Lethe architecture (Figure 4 from the paper)" width="74%">
 
 <sub><b>Figure 4 from the paper.</b> Lethe over one shared index: the query path (top) runs revocation-aware traversal; the erasure path (bottom) flips the access predicate, builds the bypass overlay, shreds keys via the TEE key store, and appends to the hash-chained erasure log.</sub>
 </div>
@@ -84,9 +84,9 @@ The reference implementation in [`src/lethe/`](src/lethe/) mirrors this one-to-o
 | Module | Paper section | What it implements |
 |---|---|---|
 | [`index.py`](src/lethe/index.py) | §5–6 | The shared index + revocation-aware traversal + per-query leakage trace |
-| [`overlay.py`](src/lethe/overlay.py) | §5.2, App. C | The effective-view-shared bypass overlay |
-| [`erasure_log.py`](src/lethe/erasure_log.py) | §5.3, App. F.4 | The append-only, hash-chained erasure log |
-| [`access.py`](src/lethe/access.py) | §5.1, App. A | The permission lattice and crypto-shredding |
+| [`overlay.py`](src/lethe/overlay.py) | §5.2, Appendix C | The effective-view-shared bypass overlay |
+| [`erasure_log.py`](src/lethe/erasure_log.py) | §5.3, Appendix F.4 | The append-only, hash-chained erasure log |
+| [`access.py`](src/lethe/access.py) | §5.1, Appendix A | The permission lattice and crypto-shredding |
 | [`metrics.py`](src/lethe/metrics.py) | §4, §7 | Operational leakage, drift@10, recall@10 |
 
 ---
