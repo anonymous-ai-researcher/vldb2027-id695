@@ -1,0 +1,2 @@
+source_file,output_file,rows,change,rationale
+/mnt/data/lethe_cost_single_source_work/stats_summary.csv,stats_summary_fixed.csv,48,"table set to appendix_G_pairwise_significance; added analysis_scope, metric_family, appendix_destination, attribution_policy",avoid dangling ideal_stats placeholder without inventing per-claim mapping

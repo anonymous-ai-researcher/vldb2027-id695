@@ -1,0 +1,7 @@
+file,rows,columns,sha256_16
+fig_dilemma_b_full_rebuild_values.csv,4,9,699f27f5507aff55
+fig_dilemma_c_full_rebuild_fraction.csv,24,13,b84a276d9efe7295
+fig_dilemma_c_replacement_values.csv,6,7,9a3ad5f5884984e2
+fig_dilemma_bc_source_mapping.csv,3,7,c625e2fc1f30bc94
+fig_dilemma_bc_validation.csv,7,3,854abe9306620b46
+fig_dilemma_text_replacements.csv,2,4,0897eb0aaf51127f

@@ -1,0 +1,3 @@
+figure,claim_or_label,source_csv,source_summary_csv,filter,aggregation,value_column,mean_value_s,semantic_scope
+fig:dilemma(b),full per-view rebuild at 8M,full_per_view_rebuild_dilemma.csv,full_per_view_rebuild_dilemma_summary.csv,"dataset=MS-MARCO-RBAC, N=8000000, method=Per-role-index, operation=full_per_view_rebuild",mean over 10 seeds,full_per_view_rebuild_s,93.0,end-to-end per-view rebuild window: graph build + view materialization + validation/swap
+fig:dilemma(b),graph-build lower bound at 8M,full_per_view_rebuild_dilemma.csv,full_per_view_rebuild_dilemma_summary.csv,"dataset=MS-MARCO-RBAC, N=8000000, method=Per-role-index",mean over 10 seeds,graph_build_phase_s,66.8,graph-build phase only; lower bound on full rebuild

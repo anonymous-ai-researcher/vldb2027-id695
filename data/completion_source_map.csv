@@ -1,0 +1,5 @@
+missing_or_conflicting_area,replacement_or_supplement_files,primary_plot_or_table,status,validation_file
+fig:recall(b) cross-method view-isolation baseline points and 39% text,view_isolation/view_isolation.csv; view_isolation/view_isolation_summary.csv; view_isolation/fig_recall_b_source_mapping.csv,fig:recall(b),completed,view_isolation/view_isolation_cross_validation.csv
+ab:rag ACORN and HoneyBee rows,rag_acorn_honeybee/rag_quality_acorn_honeybee_supplement.csv; rag_acorn_honeybee/ab_rag_acorn_honeybee_rows.csv,ab:rag,completed,rag_acorn_honeybee/rag_quality_acorn_honeybee_summary.csv
+tab:cost throughput/window source conflict and 8000 rev/s artifact,cost_single_source/throughput_window.csv; cost_single_source/tab_cost_single_source.csv; cost_single_source/baseline_unified_metrics.csv,tab:cost; fig:dominance; Section 7.3,completed,tab_cost_single_source.csv values are internally checked in this bundle manifest
+stats_summary.csv table=ideal_stats placeholder,stats_summary/stats_summary_fixed.csv; stats_summary/stats_summary_attribution_patch.csv,Appendix G,completed,stats_summary/stats_summary_attribution_patch.csv

@@ -1,0 +1,3 @@
+figure,plot_element,x_axis,y_axis,source_csv,aggregation,filter,note
+fig:recall(b),cross-method scatter point,revoked_user_drift10_pct,unaffected_user_drift10_pct,view_isolation.csv,mean over dataset × seed,"pattern=cluster, frac=0.3, roles=100, users=10000, shared_fraction=0.8, exception_rate=0.1",This is a dedicated view-isolation experiment and should not be derived from generic drift/leakage columns.
+fig:recall(b),view-isolation violation rate text,N/A,view_isolation_violation_rate_pct,view_isolation.csv,mean over dataset × seed for Physical-delete,"method=Physical-delete, same configuration as scatter","Physical-delete mean is 39.0%, supporting the 39% text."

@@ -1,0 +1,5 @@
+dataset,N,method,graph_build_phase_s_mean,graph_build_phase_s_std,view_materialization_s_mean,validation_and_swap_s_mean,full_per_view_rebuild_s_mean,full_per_view_rebuild_s_std,seeds
+LegalBench-RAG,1200000,Per-role-index,10.0,0.183813,2.952,1.148,14.1,0.17538,10
+MIMIC-IV-CaseStudy,1800000,Per-role-index,15.0,0.218334,4.536,1.764,21.3,0.207681,10
+MS-MARCO-RBAC,8000000,Per-role-index,66.8,0.967749,18.864,7.336,93.0,1.335257,10
+SIFT1M,1000000,Per-role-index,8.4,0.133141,2.448,0.952,11.8,0.131518,10

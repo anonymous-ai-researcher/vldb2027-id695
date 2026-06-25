@@ -1,0 +1,5 @@
+dataset,N,N_indexed,meaning
+LegalBench-RAG,1200000,1200000,number of indexed vectors/chunks in dataset-level rows
+MS-MARCO-RBAC,8000000,8000000,number of indexed vectors/chunks in dataset-level rows
+SIFT1M,1000000,1000000,number of indexed vectors/chunks in dataset-level rows
+MIMIC-IV-CaseStudy,1800000,1800000,number of indexed vectors/chunks in dataset-level rows

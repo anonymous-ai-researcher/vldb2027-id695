@@ -1,0 +1,3 @@
+location,old_text,new_text,reason
+fig:dilemma(c)正文,relaxing the window to one hour drops the cost under 2%,relaxing the window to one hour reduces the rebuild fraction to about 2.6%,panel (c) now uses full per-view rebuild cost 93s instead of graph-build lower bound 66.8s
+fig:dilemma caption,full per-view rebuild costs 67s at 8M,"the graph-build phase takes 66.8s, while the full per-view rebuild reaches 93.0s at 8M",separate graph-build lower bound from end-to-end full rebuild

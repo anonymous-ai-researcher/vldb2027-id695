@@ -1,0 +1,11 @@
+check,status,detail
+Lethe_leakage_after_recovery_zero,PASS,max=0.0
+Lethe_audit_correct_response_100pct,PASS,mean=1.0
+Lethe_safe_mode_correct_response_100pct,PASS,mean=1.0
+Lethe_leakage_correct_response_100pct,PASS,mean=1.0
+Lethe_full_recovery_correct_response_100pct,PASS,mean=1.0
+baseline_audit_correct_response_not_applicable,PASS,non_na=0
+baseline_safe_mode_correct_response_not_applicable,PASS,non_na=0
+baseline_full_recovery_correct_response_not_applicable,PASS,non_na=0
+Tombstone_leakage_after_recovery_variation_present,PASS,"distinct=45, mean=0.080000"
+Periodic-rebuild_leakage_after_recovery_variation_present,PASS,"distinct=45, mean=0.050000"

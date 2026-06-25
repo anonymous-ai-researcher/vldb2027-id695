@@ -1,0 +1,5 @@
+method,leakage_after_recovery,leakage_after_recovery_distinct,audit_response_correctness,safe_mode_response_correctness,zero_leakage_correctness,full_recovery_correctness,audit_raw_pass_rate,safe_mode_raw_rate,recommended_table_note
+Lethe,0.0,1,100.0,100.0,100.0,100.0,88.89,33.33,report correctness columns for Lethe; raw pass/fallback rates are diagnostic only
+Periodic-rebuild,0.05,45,,,,,0.0,0.0,audit/safe-mode correctness not applicable for this baseline
+Physical-delete,0.0,1,,,100.0,,0.0,0.0,audit/safe-mode correctness not applicable for this baseline
+Tombstone,0.08,45,,,,,0.0,0.0,audit/safe-mode correctness not applicable for this baseline

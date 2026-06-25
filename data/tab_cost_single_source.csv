@@ -1,0 +1,7 @@
+method,report_batch_B,revocations_per_s,compliance_window_s,amortized_cost_s,window_model,source_csv,source_filter,interpretation
+Tombstone,1,95077.0,3800.0,1.90001054,long_offline_consolidation,throughput_window.csv,"method=Tombstone, batch_B=1",fast metadata mark but long semantic/compliance window
+SPFresh,1,17011.0,0.05,8.39e-05,freshness_update,throughput_window.csv,"method=SPFresh, batch_B=1",fastest adjacent fresh-update baseline among erasure-like competitors
+Physical-delete,1,2461.0,0.05,0.00043221,immediate_global_delete,throughput_window.csv,"method=Physical-delete, batch_B=1",immediate but slow because graph repair/removal is costly and harms still-authorized views
+Periodic-rebuild,1000,10931.0,651.6,0.00041748,scheduled_rebuild,throughput_window.csv,"method=Periodic-rebuild, batch_B=1000",scheduled/batched rebuild; table reports the planned B=1000 operating point
+Per-role-index,1,4000.0,0.05,0.0002755,materialized_role_update,throughput_window.csv,"method=Per-role-index, batch_B=1",strong isolation but updates multiple materialized views and memory is high
+Lethe,1,49975.0,0.004,2.204e-05,immediate_per_view_erasure,throughput_window.csv,"method=Lethe, batch_B=1",immediate per-view erasure with high revocation throughput

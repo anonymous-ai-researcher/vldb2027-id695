@@ -1,0 +1,6 @@
+check,status,detail
+full_rebuild_93s_at_8M,PASS,mean=93.000000
+graph_build_66_8s_at_8M,PASS,mean=66.800000
+full_rebuild_exceeds_build_phase,PASS,
+full_rebuild_monotone_with_N,PASS,"[{'N': 1000000, 'full_per_view_rebuild_s_mean': 11.8}, {'N': 1200000, 'full_per_view_rebuild_s_mean': 14.1}, {'N': 1800000, 'full_per_view_rebuild_s_mean': 21.3}, {'N': 8000000, 'full_per_view_rebuild_s_mean': 93.0}]"
+seed_variance_present_at_8M,PASS,distinct=10

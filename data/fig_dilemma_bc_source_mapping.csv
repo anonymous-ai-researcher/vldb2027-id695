@@ -1,0 +1,4 @@
+figure,claim_or_label,source_csv,filter,value_column,mean_value,semantic_scope
+fig:dilemma(b),full per-view rebuild at 8M,fig_dilemma_b_full_rebuild_values.csv,"dataset=MS-MARCO-RBAC, N=8000000",full_per_view_rebuild_s_mean,93.0,full per-view rebuild = graph build + view materialization + validation/swap
+fig:dilemma(c),"percent time rebuilding at 8M, 1 hour window",fig_dilemma_c_full_rebuild_fraction.csv,"dataset=MS-MARCO-RBAC, N=8000000, window_s=3600",pct_time_rebuilding_full,2.583333,percent time rebuilding = full_per_view_rebuild_s / window_s * 100
+fig:dilemma(c),old lower-bound one-hour value,fig_dilemma_c_full_rebuild_fraction.csv,"dataset=MS-MARCO-RBAC, N=8000000, window_s=3600",pct_time_rebuilding_build_phase_only,1.855556,graph-build lower bound only; not the full per-view rebuild curve

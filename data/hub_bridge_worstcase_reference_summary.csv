@@ -1,0 +1,7 @@
+method,target_type,drift10_mean,drift10_min,drift10_max,drift10_pct_mean,drift10_pct_min,drift10_pct_max,recall10_vs_exact_topk_mean,scored_leakage_mean,routing_leakage_auc_mean,rows,seeds
+Lethe,high_betweenness_bridge,0.011,0.00892,0.013689,1.099998,0.892,1.3689,0.978427,0.0,0.504412,40,10
+Lethe,high_degree_hub,0.01,0.00649,0.012397,0.999992,0.649,1.2397,0.977742,0.0,0.50434,40,10
+Post-filter,high_betweenness_bridge,0.242,0.22326,0.258103,24.2,22.3261,25.8103,0.918151,0.198711,0.902687,40,10
+Post-filter,high_degree_hub,0.232,0.21631,0.248313,23.199995,21.631,24.8313,0.917962,0.191452,0.891192,40,10
+Tombstone,high_betweenness_bridge,0.238,0.21732,0.252946,23.799998,21.732,25.2946,0.917365,0.195471,0.894819,40,10
+Tombstone,high_degree_hub,0.224,0.203332,0.241468,22.400002,20.3332,24.1468,0.919144,0.183908,0.885407,40,10

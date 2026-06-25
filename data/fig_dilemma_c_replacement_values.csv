@@ -1,0 +1,7 @@
+window_label,window_s,pct_time_rebuilding_full,pct_time_rebuilding_build_phase_only,old_8M_build_phase_pct,new_8M_full_rebuild_pct,replacement_note
+1 min,60,155.0,111.333333,111.333333,155.0,Use new_8M_full_rebuild_pct for fig:dilemma(c); old build-phase values are lower-bound diagnostics only.
+5 min,300,31.0,22.266667,22.266667,31.0,Use new_8M_full_rebuild_pct for fig:dilemma(c); old build-phase values are lower-bound diagnostics only.
+30 min,1800,5.166667,3.711111,3.711111,5.166667,Use new_8M_full_rebuild_pct for fig:dilemma(c); old build-phase values are lower-bound diagnostics only.
+1 hour,3600,2.583333,1.855556,1.855556,2.583333,Use new_8M_full_rebuild_pct for fig:dilemma(c); old build-phase values are lower-bound diagnostics only.
+6 hours,21600,0.430556,0.309259,0.309259,0.430556,Use new_8M_full_rebuild_pct for fig:dilemma(c); old build-phase values are lower-bound diagnostics only.
+24 hours,86400,0.107639,0.077315,0.077315,0.107639,Use new_8M_full_rebuild_pct for fig:dilemma(c); old build-phase values are lower-bound diagnostics only.

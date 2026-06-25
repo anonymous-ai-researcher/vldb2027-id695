@@ -1,0 +1,3 @@
+method,EM_pct,F1_pct,source_csv,source_column_EM,source_column_F1,aggregation,rows
+ACORN,40.9,53.84,rag_quality_acorn_honeybee_supplement.csv,em,f1,mean over task_subset × prompt_id,40
+HoneyBee,41.31,54.34,rag_quality_acorn_honeybee_supplement.csv,em,f1,mean over task_subset × prompt_id,40

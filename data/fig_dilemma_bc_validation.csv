@@ -1,0 +1,8 @@
+check,status,detail
+panel_b_8M_full_rebuild_93s,PASS,value=93.0
+panel_b_8M_graph_build_66_8s,PASS,value=66.8
+panel_c_1hour_uses_93s,PASS,value=2.583333
+panel_c_1hour_value_about_2_58pct,PASS,value=2.583333
+old_under_2pct_value_only_build_phase,PASS,value=1.855556
+full_rebuild_pct_exceeds_build_phase_pct_all,PASS,
+panel_c_monotone_decreases_with_window,PASS,

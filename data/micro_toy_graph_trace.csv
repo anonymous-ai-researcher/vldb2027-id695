@@ -1,0 +1,25 @@
+N,toy_graph_nodes,method,step,event,node,is_revoked_node,access_predicate_checked,distance_scored,frontier_inserted,node_expanded,result_returned,bypass_edge_used,candidate_frontier_state,expected_interpretation
+30,30,Tombstone,1,start,entry,False,False,False,False,False,False,False,frontier_after_step_1_Tombstone,ideal trace
+30,30,Tombstone,2,encounter,bridge_revoked,True,False,True,True,True,False,False,frontier_after_step_2_Tombstone,ideal trace
+30,30,Tombstone,3,bypass,bridge_bypass_edge,False,False,False,True,False,False,False,frontier_after_step_3_Tombstone,ideal trace
+30,30,Tombstone,4,score,authorized_A,False,False,True,True,False,False,False,frontier_after_step_4_Tombstone,ideal trace
+30,30,Tombstone,5,expand,authorized_A,False,False,True,True,True,False,False,frontier_after_step_5_Tombstone,ideal trace
+30,30,Tombstone,6,return,authorized_B,False,False,True,False,False,True,False,frontier_after_step_6_Tombstone,ideal trace
+30,30,Post-filter,1,start,entry,False,False,False,False,False,False,False,frontier_after_step_1_Post-filter,ideal trace
+30,30,Post-filter,2,encounter,bridge_revoked,True,False,True,True,True,False,False,frontier_after_step_2_Post-filter,ideal trace
+30,30,Post-filter,3,bypass,bridge_bypass_edge,False,False,False,True,False,False,False,frontier_after_step_3_Post-filter,ideal trace
+30,30,Post-filter,4,score,authorized_A,False,False,True,True,False,False,False,frontier_after_step_4_Post-filter,ideal trace
+30,30,Post-filter,5,expand,authorized_A,False,False,True,True,True,False,False,frontier_after_step_5_Post-filter,ideal trace
+30,30,Post-filter,6,return,authorized_B,False,False,True,False,False,True,False,frontier_after_step_6_Post-filter,ideal trace
+30,30,Lethe,1,start,entry,False,False,False,False,False,False,False,frontier_after_step_1_Lethe,ideal trace
+30,30,Lethe,2,encounter,bridge_revoked,True,True,False,False,False,False,False,frontier_after_step_2_Lethe,ideal trace
+30,30,Lethe,3,bypass,bridge_bypass_edge,False,False,False,True,False,False,True,frontier_after_step_3_Lethe,ideal trace
+30,30,Lethe,4,score,authorized_A,False,False,True,True,False,False,False,frontier_after_step_4_Lethe,ideal trace
+30,30,Lethe,5,expand,authorized_A,False,False,True,True,True,False,False,frontier_after_step_5_Lethe,ideal trace
+30,30,Lethe,6,return,authorized_B,False,False,True,False,False,True,False,frontier_after_step_6_Lethe,ideal trace
+30,30,Lethe-no-bypass,1,start,entry,False,False,False,False,False,False,False,frontier_after_step_1_Lethe-no-bypass,ideal trace
+30,30,Lethe-no-bypass,2,encounter,bridge_revoked,True,False,False,False,False,False,False,frontier_after_step_2_Lethe-no-bypass,ideal trace
+30,30,Lethe-no-bypass,3,bypass,bridge_bypass_edge,False,False,False,False,False,False,False,frontier_after_step_3_Lethe-no-bypass,ideal trace
+30,30,Lethe-no-bypass,4,score,authorized_A,False,False,True,True,False,False,False,frontier_after_step_4_Lethe-no-bypass,ideal trace
+30,30,Lethe-no-bypass,5,expand,authorized_A,False,False,True,True,True,False,False,frontier_after_step_5_Lethe-no-bypass,ideal trace
+30,30,Lethe-no-bypass,6,return,authorized_B,False,False,True,False,False,True,False,frontier_after_step_6_Lethe-no-bypass,ideal trace

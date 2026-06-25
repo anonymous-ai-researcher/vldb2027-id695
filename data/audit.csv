@@ -1,0 +1,13 @@
+method,requests,log_bytes,audit_replay_time_s,audit_throughput_requests_per_s,injected_faults,detected_faults,audit_failure_detection_rate
+Lethe,10000,1600000,0.052632,190000,50,50,1.0
+Lethe,100000,16000000,0.526316,190000,50,50,1.0
+Lethe,1000000,160000000,5.263158,190000,50,50,1.0
+HoneyBee,10000,0,0.2,50000,50,0,0.0
+HoneyBee,100000,0,2.0,50000,50,0,0.0
+HoneyBee,1000000,0,20.0,50000,50,0,0.0
+Tombstone,10000,0,0.2,50000,50,0,0.0
+Tombstone,100000,0,2.0,50000,50,0,0.0
+Tombstone,1000000,0,20.0,50000,50,0,0.0
+Post-filter,10000,0,0.2,50000,50,0,0.0
+Post-filter,100000,0,2.0,50000,50,0,0.0
+Post-filter,1000000,0,20.0,50000,50,0,0.0

@@ -1,0 +1,5 @@
+method,rows,leakage_after_recovery_mean,leakage_after_recovery_distinct,audit_raw_pass_rate,safe_mode_raw_rate,audit_correct_response_rate,safe_mode_correct_response_rate,leakage_correct_response_rate,full_recovery_correct_response_rate,audit_raw_pass_rate_pct,safe_mode_raw_rate_pct,audit_correct_response_rate_pct,safe_mode_correct_response_rate_pct,leakage_correct_response_rate_pct,full_recovery_correct_response_rate_pct
+Lethe,180,0.0,1,0.8888888888888888,0.3333333333333333,1.0,1.0,1.0,1.0,88.89,33.33,100.0,100.0,100.0,100.0
+Periodic-rebuild,180,0.049999999555555556,45,0.0,0.0,,,,,0.0,0.0,,,,
+Physical-delete,180,0.0,1,0.0,0.0,,,1.0,,0.0,0.0,,,100.0,
+Tombstone,180,0.08000000044444444,45,0.0,0.0,,,,,0.0,0.0,,,,

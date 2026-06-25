@@ -1,0 +1,11 @@
+check,status,detail
+row_count_48,PASS,rows=48
+frac_all_0_5,PASS,[0.5]
+effect_size_type_rank_biserial,PASS,['rank_biserial']
+test_paired_t_for_p_value,PASS,['paired_t_for_p_value']
+p_raw_not_placeholder,PASS,distinct=48
+rank_biserial_saturation_expected,PASS,"distinct=2, values=[-1.0, 1.0]"
+no_missing_cells,PASS,
+datasets_4,PASS,datasets=4
+patterns_4,PASS,patterns=4
+metrics_3,PASS,metrics=3

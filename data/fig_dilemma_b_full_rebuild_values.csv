@@ -1,0 +1,5 @@
+figure,dataset,N,N_indexed,method,graph_build_phase_s_mean,full_per_view_rebuild_s_mean,operation,source_role
+fig:dilemma(b),SIFT1M,1000000,1000000,Per-role-index,8.4,11.8,full_per_view_rebuild,fig_dilemma_b_full_per_view_rebuild
+fig:dilemma(b),LegalBench-RAG,1200000,1200000,Per-role-index,10.0,14.1,full_per_view_rebuild,fig_dilemma_b_full_per_view_rebuild
+fig:dilemma(b),MIMIC-IV-CaseStudy,1800000,1800000,Per-role-index,15.0,21.3,full_per_view_rebuild,fig_dilemma_b_full_per_view_rebuild
+fig:dilemma(b),MS-MARCO-RBAC,8000000,8000000,Per-role-index,66.8,93.0,full_per_view_rebuild,fig_dilemma_b_full_per_view_rebuild

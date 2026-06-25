@@ -1,0 +1,7 @@
+check,status,detail
+leakage_instrumentation_counter_invariants,PASS,
+routing_trace_matches_instrumentation,PASS,
+view_isolation_targets,PASS,
+rag_acorn_honeybee_targets,PASS,
+cost_single_source_alignment,PASS,
+stats_summary_table_attribution,PASS,

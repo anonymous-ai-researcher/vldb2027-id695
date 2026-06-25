@@ -1,0 +1,36 @@
+file,original_rows,patched_rows,common_columns_checked,experimental_values_unchanged_excluding_N,added_columns
+access_control_workload_sensitivity.csv,25920,25920,15,True,N; N_indexed
+attack.csv,3200,3200,8,True,N; N_indexed
+audit.csv,12,12,8,True,
+audit_negative_tests.csv,108,108,9,True,
+baseline_unified_metrics.csv,10400,10400,20,True,N; N_indexed
+bypass_ablation.csv,5600,5600,17,True,N; N_indexed
+concurrency_crash_consistency.csv,720,720,10,True,N; N_indexed
+diskann_vamana_validation.csv,420,420,15,True,N; N_indexed
+exact_linear_scan_reference.csv,5600,5600,9,True,N; N_indexed
+exception_rate_sensitivity.csv,7200,7200,14,True,N; N_indexed
+file_size_report.csv,34,34,4,True,
+graph_bypass_oracle_comparison.csv,2400,2400,15,True,N; N_indexed
+graph_construction_determinism.csv,1296,1296,12,True,N; N_indexed
+hub_bridge_adversarial_revocation.csv,1000,1000,10,True,N; N_indexed
+large_scale_stress.csv,180,180,22,True,N
+latency_breakdown.csv,3360,3360,13,True,N; N_indexed
+leakage_instrumentation.csv,11520,11520,17,True,N; N_indexed
+leakage_recall.csv,11520,11520,9,True,N; N_indexed
+memory.csv,288,288,20,True,N; N_indexed
+memory_accounting.csv,1440,1440,20,True,N; N_indexed
+micro_toy_graph_trace.csv,24,24,13,True,N; toy_graph_nodes
+oracle_stability.csv,2200,2200,9,True,N; N_indexed
+per_query_trace_artifact.csv,1200,1200,15,True,N; N_indexed
+physical_global_erasure_split.csv,240,240,16,True,N; N_indexed
+rag_quality.csv,200,200,19,True,N; N_indexed
+rag_quality_rerun.csv,200,200,19,True,N; N_indexed
+recoverability.csv,40,40,5,True,N; N_indexed
+reverse_adjacency_cost.csv,240,240,12,True,N; N_indexed
+routing_trace.csv,11520,11520,17,True,N; N_indexed
+same_role_user_level_revocation.csv,7200,7200,12,True,N; N_indexed
+scalability.csv,180,180,22,True,N
+statistical_reruns_summary.csv,48,48,12,True,N; N_indexed
+stats_summary.csv,48,48,12,True,N; N_indexed
+throughput_window.csv,1800,1800,7,True,N; N_indexed
+view_scope_unaffected_user_drift.csv,7200,7200,12,True,N; N_indexed

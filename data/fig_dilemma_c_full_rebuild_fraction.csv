@@ -1,0 +1,25 @@
+figure,dataset,N,N_indexed,method,operation,window_label,window_s,graph_build_phase_s,full_per_view_rebuild_s,pct_time_rebuilding_full,pct_time_rebuilding_build_phase_only,source_role
+fig:dilemma(c),SIFT1M,1000000,1000000,Per-role-index,full_per_view_rebuild_amortized_fraction,1 min,60,8.4,11.8,19.666667,14.0,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),SIFT1M,1000000,1000000,Per-role-index,full_per_view_rebuild_amortized_fraction,5 min,300,8.4,11.8,3.933333,2.8,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),SIFT1M,1000000,1000000,Per-role-index,full_per_view_rebuild_amortized_fraction,30 min,1800,8.4,11.8,0.655556,0.466667,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),SIFT1M,1000000,1000000,Per-role-index,full_per_view_rebuild_amortized_fraction,1 hour,3600,8.4,11.8,0.327778,0.233333,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),SIFT1M,1000000,1000000,Per-role-index,full_per_view_rebuild_amortized_fraction,6 hours,21600,8.4,11.8,0.05463,0.038889,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),SIFT1M,1000000,1000000,Per-role-index,full_per_view_rebuild_amortized_fraction,24 hours,86400,8.4,11.8,0.013657,0.009722,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),LegalBench-RAG,1200000,1200000,Per-role-index,full_per_view_rebuild_amortized_fraction,1 min,60,10.0,14.1,23.5,16.666667,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),LegalBench-RAG,1200000,1200000,Per-role-index,full_per_view_rebuild_amortized_fraction,5 min,300,10.0,14.1,4.7,3.333333,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),LegalBench-RAG,1200000,1200000,Per-role-index,full_per_view_rebuild_amortized_fraction,30 min,1800,10.0,14.1,0.783333,0.555556,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),LegalBench-RAG,1200000,1200000,Per-role-index,full_per_view_rebuild_amortized_fraction,1 hour,3600,10.0,14.1,0.391667,0.277778,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),LegalBench-RAG,1200000,1200000,Per-role-index,full_per_view_rebuild_amortized_fraction,6 hours,21600,10.0,14.1,0.065278,0.046296,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),LegalBench-RAG,1200000,1200000,Per-role-index,full_per_view_rebuild_amortized_fraction,24 hours,86400,10.0,14.1,0.016319,0.011574,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),MIMIC-IV-CaseStudy,1800000,1800000,Per-role-index,full_per_view_rebuild_amortized_fraction,1 min,60,15.0,21.3,35.5,25.0,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),MIMIC-IV-CaseStudy,1800000,1800000,Per-role-index,full_per_view_rebuild_amortized_fraction,5 min,300,15.0,21.3,7.1,5.0,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),MIMIC-IV-CaseStudy,1800000,1800000,Per-role-index,full_per_view_rebuild_amortized_fraction,30 min,1800,15.0,21.3,1.183333,0.833333,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),MIMIC-IV-CaseStudy,1800000,1800000,Per-role-index,full_per_view_rebuild_amortized_fraction,1 hour,3600,15.0,21.3,0.591667,0.416667,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),MIMIC-IV-CaseStudy,1800000,1800000,Per-role-index,full_per_view_rebuild_amortized_fraction,6 hours,21600,15.0,21.3,0.098611,0.069444,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),MIMIC-IV-CaseStudy,1800000,1800000,Per-role-index,full_per_view_rebuild_amortized_fraction,24 hours,86400,15.0,21.3,0.024653,0.017361,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),MS-MARCO-RBAC,8000000,8000000,Per-role-index,full_per_view_rebuild_amortized_fraction,1 min,60,66.8,93.0,155.0,111.333333,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),MS-MARCO-RBAC,8000000,8000000,Per-role-index,full_per_view_rebuild_amortized_fraction,5 min,300,66.8,93.0,31.0,22.266667,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),MS-MARCO-RBAC,8000000,8000000,Per-role-index,full_per_view_rebuild_amortized_fraction,30 min,1800,66.8,93.0,5.166667,3.711111,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),MS-MARCO-RBAC,8000000,8000000,Per-role-index,full_per_view_rebuild_amortized_fraction,1 hour,3600,66.8,93.0,2.583333,1.855556,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),MS-MARCO-RBAC,8000000,8000000,Per-role-index,full_per_view_rebuild_amortized_fraction,6 hours,21600,66.8,93.0,0.430556,0.309259,fig_dilemma_c_full_rebuild_consistent_with_panel_b
+fig:dilemma(c),MS-MARCO-RBAC,8000000,8000000,Per-role-index,full_per_view_rebuild_amortized_fraction,24 hours,86400,66.8,93.0,0.107639,0.077315,fig_dilemma_c_full_rebuild_consistent_with_panel_b

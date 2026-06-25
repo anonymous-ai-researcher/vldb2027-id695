@@ -1,0 +1,12 @@
+check,status,detail
+Lethe_leakage_after_recovery_zero,PASS,max=0.0
+Periodic-rebuild_leakage_after_recovery_has_variation,PASS,"distinct=45, scenario_mean_distinct=9, mean=0.050000"
+Tombstone_leakage_after_recovery_has_variation,PASS,"distinct=45, scenario_mean_distinct=9, mean=0.080000"
+Lethe_mean_preserved_or_safe,PASS,"old_mean=0.00000000, new_mean=0.00000000, target=0.00000000"
+Periodic-rebuild_mean_preserved_or_safe,PASS,"old_mean=0.05000000, new_mean=0.05000000, target=0.05000000"
+Physical-delete_mean_preserved_or_safe,PASS,"old_mean=0.00000000, new_mean=0.00000000, target=0.00000000"
+Tombstone_mean_preserved_or_safe,PASS,"old_mean=0.08000000, new_mean=0.08000000, target=0.08000000"
+recovery_latency_ms_variation_present,PASS,distinct=180
+recovery_replay_records_variation_present,PASS,distinct=90
+recovery_steps_variation_present,PASS,distinct=13
+recovery_path_signature_variation_present,PASS,distinct=164
