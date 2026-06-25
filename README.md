@@ -9,10 +9,10 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Tests](https://img.shields.io/badge/tests-5%20passing-brightgreen.svg)](tests/)
 [![Paper](https://img.shields.io/badge/paper-extended%20version-orange.svg)](paper/lethe-extended.pdf)
-[![Artifact](https://img.shields.io/badge/artifact-anonymous.4open.science-blue.svg)](https://anonymous.4open.science/r/lethe/)
+[![Artifact](https://img.shields.io/badge/artifact-GitHub-blue.svg)](https://github.com/anonymous-ai-researcher/vldb2027-id695)
 [![Reproducible](https://img.shields.io/badge/artifact-reproducible-success.svg)](#-reproduce-in-three-commands)
 
-**Artifact:** [`https://anonymous.4open.science/r/lethe/`](https://anonymous.4open.science/r/lethe/)
+**Artifact:** [`https://github.com/anonymous-ai-researcher/vldb2027-id695`](https://github.com/anonymous-ai-researcher/vldb2027-id695)
 
 </div>
 
@@ -55,6 +55,29 @@ fraction, while the tombstone baseline's leakage and drift climb with it.
 
 ---
 
+## 🧰 Environment & dependencies
+
+Everything in this repository runs on a standard CPU machine; no GPU, no
+specialized hardware, and no network access are required for reproduction.
+
+| Component | Version / setting |
+|---|---|
+| OS | Linux (Ubuntu 22.04+); also runs on macOS |
+| Python | 3.9 or newer |
+| `numpy` | ≥ 1.24 |
+| `hnswlib` | ≥ 0.7.0 |
+| `pandas` | ≥ 2.0 |
+| `matplotlib` | ≥ 3.5 (figure scripts only) |
+| `pytest` | ≥ 7.0 (test suite only) |
+| Determinism | all randomized steps are seeded; `data/` holds 10-seed full-scale results |
+
+All dependencies are open-source and install with a single
+`pip install -r requirements.txt`. Exact pins live in `requirements.txt` and
+`pyproject.toml`. The released measurement data in `data/` is plain CSV and
+needs no special reader.
+
+---
+
 ## 🧩 The six axes of erasure
 
 Every prior index-maintenance method fails at least one of these; only Lethe
@@ -73,7 +96,7 @@ satisfies all six over one shared structure.
 
 ## 🏗️ How it works
 
-<div align="center">
+<div align="left">
 <img src="figures/architecture.png" alt="Lethe architecture (Figure 4 from the paper)" width="74%">
 
 <sub><b>Figure 4 from the paper.</b> Lethe over one shared index: the query path (top) runs revocation-aware traversal; the erasure path (bottom) flips the access predicate, builds the bypass overlay, shreds keys via the TEE key store, and appends to the hash-chained erasure log.</sub>
@@ -84,9 +107,9 @@ The reference implementation in [`src/lethe/`](src/lethe/) mirrors this one-to-o
 | Module | Paper section | What it implements |
 |---|---|---|
 | [`index.py`](src/lethe/index.py) | §5–6 | The shared index + revocation-aware traversal + per-query leakage trace |
-| [`overlay.py`](src/lethe/overlay.py) | §5.2, Appx C | The effective-view-shared bypass overlay |
-| [`erasure_log.py`](src/lethe/erasure_log.py) | §5.3, Appx F.4 | The append-only, hash-chained erasure log |
-| [`access.py`](src/lethe/access.py) | §5.1, Appx A | The permission lattice and crypto-shredding |
+| [`overlay.py`](src/lethe/overlay.py) | §5.2, App. C | The effective-view-shared bypass overlay |
+| [`erasure_log.py`](src/lethe/erasure_log.py) | §5.3, App. F.4 | The append-only, hash-chained erasure log |
+| [`access.py`](src/lethe/access.py) | §5.1, App. A | The permission lattice and crypto-shredding |
 | [`metrics.py`](src/lethe/metrics.py) | §4, §7 | Operational leakage, drift@10, recall@10 |
 
 ---
