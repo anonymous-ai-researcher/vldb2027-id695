@@ -3,7 +3,7 @@
 # 🪦 Laying Zombie Vectors to Rest
 ### Per-View Erasure in Graph Indexes
 
-*A revoked vector should disappear from a viewer's results **and** stop steering their search — and be provably, physically gone.*
+*A revoked vector should disappear from a viewer's results **and** stop steering their search, and be provably, physically gone.*
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -22,13 +22,13 @@
 
 In a **shared** access-controlled graph vector index (HNSW, DiskANN, …), revoking a
 user's access to a vector is not enough to delete it. The vector physically
-persists, and worse, it **keeps steering the revoked user's search** — a *zombie
+persists, and worse, it **keeps steering the revoked user's search**, a *zombie
 vector* that routes queries it can never appear in. We call removing this lingering
 influence **per-view erasure**: after revocation the index must behave, in both its
 **results** and its **routing**, as if the vector had never entered the revoked
 user's view. **Lethe** achieves this over a single shared structure through
 revocation-aware traversal, an effective-view-shared bypass overlay, an append-only
-erasure log, and vector-granular cryptographic shredding — driving per-view leakage
+erasure log, and vector-granular cryptographic shredding, driving per-view leakage
 to zero while holding recall at the level of an oracle per-view rebuild, at a
 fraction of the memory of per-user indexes.
 
@@ -97,7 +97,7 @@ satisfies all six over one shared structure.
 ## 🏗️ How it works
 
 <div align="left">
-<img src="figures/architecture.png" alt="Lethe architecture (Figure 4 from the paper)" width="74%">
+<img src="figures/architecture.png" alt="Lethe architecture (Figure 4 from the paper)" width="81%">
 
 <sub><b>Figure 4 from the paper.</b> Lethe over one shared index: the query path (top) runs revocation-aware traversal; the erasure path (bottom) flips the access predicate, builds the bypass overlay, shreds keys via the TEE key store, and appends to the hash-chained erasure log.</sub>
 </div>
@@ -195,9 +195,9 @@ Each headline claim maps to data you can re-aggregate and code you can run.
 
 ## 📄 The paper
 
-The full **extended version** — main text plus every appendix (formal proofs,
+The full **extended version** (main text plus every appendix: formal proofs,
 reproducibility, complete baselines, the experiment suite, ablations, security
-evaluation, statistical significance, and limitations) — is in
+evaluation, statistical significance, and limitations) is in
 [`paper/lethe-extended.pdf`](paper/lethe-extended.pdf). To recompile:
 
 ```bash
