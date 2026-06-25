@@ -20,7 +20,7 @@
 
 ## 🎯 The one-paragraph version
 
-In a **shared** access-controlled graph vector index (HNSW, DiskANN), revoking a
+In a **shared** access-controlled graph vector index (HNSW, DiskANN, …), revoking a
 user's access to a vector is not enough to delete it. The vector physically
 persists, and worse, it **keeps steering the revoked user's search** — a *zombie
 vector* that routes queries it can never appear in. We call removing this lingering
